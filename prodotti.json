@@ -1,0 +1,240 @@
+[
+  {
+    "nomeProdotto": "Caffè",
+    "prezzo": "1,20€",
+    "categoria": "Caffetteria",
+    "descrizione": "classico espresso",
+    "macroArea": "Caffetteria"
+  },
+  {
+    "nomeProdotto": "Caffè macchiato",
+    "prezzo": "1,20€",
+    "categoria": "Caffetteria",
+    "descrizione": "caffè, latte",
+    "macroArea": "Caffetteria"
+  },
+  {
+    "nomeProdotto": "Cappuccino",
+    "prezzo": "1,80€",
+    "categoria": "Caffetteria",
+    "descrizione": "caffè, latte, schiuma",
+    "macroArea": "Caffetteria"
+  },
+  {
+    "nomeProdotto": "Latte macchiato",
+    "prezzo": "1,80€",
+    "categoria": "Caffetteria",
+    "descrizione": "latte, caffè",
+    "macroArea": "Caffetteria"
+  },
+  {
+    "nomeProdotto": "Caffè con Baileys",
+    "prezzo": "1,50€",
+    "categoria": "Caffetteria",
+    "descrizione": "caffè, liquore Baileys",
+    "macroArea": "Caffetteria"
+  },
+  {
+    "nomeProdotto": "Caffè con Sambuca",
+    "prezzo": "1,50€",
+    "categoria": "Caffetteria",
+    "descrizione": "caffè, liquore Sambuca",
+    "macroArea": "Caffetteria"
+  },
+  {
+    "nomeProdotto": "Caffè con Amaro",
+    "prezzo": "1,50€",
+    "categoria": "Caffetteria",
+    "descrizione": "caffè, amaro a scelta",
+    "macroArea": "Caffetteria"
+  },
+  {
+    "nomeProdotto": "Polacca",
+    "prezzo": "1,80€",
+    "categoria": "Pasticceria",
+    "descrizione": "crema, amarena",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Polacca al Limone",
+    "prezzo": "1,80€",
+    "categoria": "Pasticceria",
+    "descrizione": "crema al limone, senza amarena",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Polacca all’Arancia",
+    "prezzo": "1,80€",
+    "categoria": "Pasticceria",
+    "descrizione": "crema all’arancia, senza amarena",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Polacca Vuota",
+    "prezzo": "1,50€",
+    "categoria": "Pasticceria",
+    "descrizione": "senza ripieno",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Cornetto Vuoto",
+    "prezzo": "1,50€",
+    "categoria": "Pasticceria",
+    "descrizione": "possibile farcire con cioccolato, marmellata, pistacchio",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Polacca/Cornetto al Cioccolato",
+    "prezzo": "1,80€",
+    "categoria": "Pasticceria",
+    "descrizione": "cioccolato",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Polacca/Cornetto al Pistacchio",
+    "prezzo": "1,80€",
+    "categoria": "Pasticceria",
+    "descrizione": "pistacchio",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Polacca/Cornetto a marmellata",
+    "prezzo": "1,80€",
+    "categoria": "Pasticceria",
+    "descrizione": "albicocca, frutti di bosco",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Reginetta/Zeppolina",
+    "prezzo": "1,50€",
+    "categoria": "Pasticceria",
+    "descrizione": "",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Code d'aragosta mignon",
+    "prezzo": "1,00€",
+    "categoria": "Pasticceria",
+    "descrizione": "cioccolato, cioccolato bianco, limone, nocciola",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Barchette mignon",
+    "prezzo": "1,00€",
+    "categoria": "Pasticceria",
+    "descrizione": "cioccolato",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Sigarette mignon",
+    "prezzo": "0,80€",
+    "categoria": "Pasticceria",
+    "descrizione": "cioccolato, cioccolato bianco",
+    "macroArea": "Pasticceria"
+  },
+  {
+    "nomeProdotto": "Torta polacca",
+    "prezzo": "23€/kg",
+    "categoria": "Torte e Crostate",
+    "descrizione": "1 kg | 1,5 kg | 2 kg",
+    "macroArea": "Torte e Crostate"
+  },
+  {
+    "nomeProdotto": "Crostate",
+    "prezzo": "20€/kg",
+    "categoria": "Torte e Crostate",
+    "descrizione": "albicocca, frutti di bosco, amarena, cioccolato, cioccolato bianco & nero",
+    "macroArea": "Torte e Crostate"
+  },
+  {
+    "nomeProdotto": "Fetta di torta polacca",
+    "prezzo": "3€",
+    "categoria": "Torte e Crostate",
+    "descrizione": "crema, amarena",
+    "macroArea": "Torte e Crostate"
+  },
+  {
+    "nomeProdotto": "Trancio di crostata",
+    "prezzo": "2,50€",
+    "categoria": "Torte e Crostate",
+    "descrizione": "albicocca, frutti di bosco, amarena, cioccolato, cioccolato bianco & nero",
+    "macroArea": "Torte e Crostate"
+  },
+  {
+    "nomeProdotto": "Aperol Spritz",
+    "prezzo": "8€",
+    "categoria": "Drink - Classici",
+    "descrizione": "Aperol, prosecco, soda",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Negroni",
+    "prezzo": "8€",
+    "categoria": "Drink - Classici",
+    "descrizione": "gin, vermouth rosso, campari",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Negroni Sbagliato",
+    "prezzo": "8€",
+    "categoria": "Drink - Classici",
+    "descrizione": "vermouth rosso, Campari, prosecco",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Gin Lemon",
+    "prezzo": "8€",
+    "categoria": "Drink - Classici",
+    "descrizione": "gin, limone, soda",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Gin Tonic",
+    "prezzo": "8€",
+    "categoria": "Drink - Classici",
+    "descrizione": "gin, acqua tonica, lime",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Whiskey Sour",
+    "prezzo": "8€",
+    "categoria": "Drink - Classici",
+    "descrizione": "whiskey, limone, zucchero",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Moscow Mule",
+    "prezzo": "8€",
+    "categoria": "Drink - Classici",
+    "descrizione": "vodka, ginger beer, lime",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Margarita",
+    "prezzo": "8€",
+    "categoria": "Drink - Signature",
+    "descrizione": "tequila, lime, contreau",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "French Seventy Five",
+    "prezzo": "8€",
+    "categoria": "Drink - Signature",
+    "descrizione": "gin, champagne, lemon juice, liqueur",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Cranberry Mule",
+    "prezzo": "8€",
+    "categoria": "Drink - Signature",
+    "descrizione": "ginger beer, vodka, cranberry juice",
+    "macroArea": "Drink"
+  },
+  {
+    "nomeProdotto": "Old Fashioned",
+    "prezzo": "8€",
+    "categoria": "Drink - Signature",
+    "descrizione": "whiskey, bitters, simple syrup, orange",
+    "macroArea": "Drink"
+  }
+]
