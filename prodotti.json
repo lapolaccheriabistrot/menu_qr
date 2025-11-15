@@ -1,250 +1,270 @@
-[
-  {
-    "nomeProdotto": "Caffè",
-    "prezzoBanco": "1,20€",
-    "prezzoTavolo": "1,20€",
-    "categoria": "Caffetteria & CO.",
-    "descrizione": "classico espresso",
-    "macroArea": "Caffetteria"
-  },
-  {
-    "nomeProdotto": "Caffè macchiato",
-    "prezzoBanco": "1,20€",
-    "prezzoTavolo": "1,20€",
-    "categoria": "Caffetteria & CO.",
-    "descrizione": "caffè, latte",
-    "macroArea": "Caffetteria"
-  },
-  {
-    "nomeProdotto": "Cappuccino",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "Caffetteria & CO.",
-    "descrizione": "caffè, latte, schiuma",
-    "macroArea": "Caffetteria"
-  },
-  {
-    "nomeProdotto": "Latte macchiato",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "Caffetteria & CO.",
-    "descrizione": "latte, caffè",
-    "macroArea": "Caffetteria"
-  },
-  {
-    "nomeProdotto": "Caffè con Baileys",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "Caffetteria & CO.",
-    "descrizione": "caffè, liquore Baileys",
-    "macroArea": "Caffetteria"
-  },
-  {
-    "nomeProdotto": "Caffè con Sambuca",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "Caffetteria & CO.",
-    "descrizione": "caffè, liquore Sambuca",
-    "macroArea": "Caffetteria"
-  },
-  {
-    "nomeProdotto": "Caffè con Amaro",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "Caffetteria & CO.",
-    "descrizione": "caffè, amaro a scelta",
-    "macroArea": "Caffetteria"
-  },
-  {
-    "nomeProdotto": "Polacca",
-    "prezzoBanco": "1,80€",
-    "prezzoTavolo": "1,80€",
-    "categoria": "La nostra colazione",
-    "descrizione": "crema, amarena",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Polacca al Limone",
-    "prezzoBanco": "1,80€",
-    "prezzoTavolo": "1,80€",
-    "categoria": "La nostra colazione",
-    "descrizione": "crema al limone, senza amarena",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Polacca all’Arancia",
-    "prezzoBanco": "1,80€",
-    "prezzoTavolo": "1,80€",
-    "categoria": "La nostra colazione",
-    "descrizione": "crema all’arancia, senza amarena",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Polacca Vuota",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "La nostra colazione",
-    "descrizione": "senza ripieno",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Cornetto Vuoto",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "La nostra colazione",
-    "descrizione": "possibile farcire con cioccolato, marmellata, pistacchio",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Polacca/Cornetto al Cioccolato",
-    "prezzoBanco": "1,80€",
-    "prezzoTavolo": "1,80€",
-    "categoria": "La nostra colazione",
-    "descrizione": "cioccolato",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Polacca/Cornetto al Pistacchio",
-    "prezzoBanco": "1,80€",
-    "prezzoTavolo": "1,80€",
-    "categoria": "La nostra colazione",
-    "descrizione": "pistacchio",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Polacca/Cornetto a marmellata",
-    "prezzoBanco": "1,80€",
-    "prezzoTavolo": "1,80€",
-    "categoria": "La nostra colazione",
-    "descrizione": "albicocca, frutti di bosco",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Reginetta/Zeppolina",
-    "prezzoBanco": "1,50€",
-    "prezzoTavolo": "1,50€",
-    "categoria": "La nostra colazione",
-    "descrizione": "",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Code d'aragosta mignon",
-    "prezzoBanco": "1,00€",
-    "prezzoTavolo": "1,00€",
-    "categoria": "La nostra colazione",
-    "descrizione": "cioccolato, cioccolato bianco, limone, nocciola",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Barchette mignon",
-    "prezzoBanco": "1,00€",
-    "prezzoTavolo": "1,00€",
-    "categoria": "La nostra colazione",
-    "descrizione": "cioccolato",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Sigarette mignon",
-    "prezzoBanco": "0,80€",
-    "prezzoTavolo": "0,80€",
-    "categoria": "La nostra colazione",
-    "descrizione": "cioccolato, cioccolato bianco",
-    "macroArea": "Pasticceria"
-  },
-  {
-    "nomeProdotto": "Torta polacca",
-    "prezzoBanco": "23€/kg",
-    "prezzoTavolo": "",
-    "categoria": "Torte e Crostate",
-    "descrizione": "1 kg | 1,5 kg | 2 kg",
-    "macroArea": "Torte e Crostate"
-  },
-  {
-    "nomeProdotto": "Crostate",
-    "prezzoBanco": "20€/kg",
-    "prezzoTavolo": "",
-    "categoria": "Torte e Crostate",
-    "descrizione": "albicocca, frutti di bosco, amarena, cioccolato, cioccolato bianco & nero",
-    "macroArea": "Torte e Crostate"
-  },
-  {
-    "nomeProdotto": "Fetta di torta polacca",
-    "prezzoBanco": "3€",
-    "prezzoTavolo": "3€",
-    "categoria": "Torte e Crostate",
-    "descrizione": "crema, amarena",
-    "macroArea": "Torte e Crostate"
-  },
-  {
-    "nomeProdotto": "Trancio di crostata",
-    "prezzoBanco": "2,50€",
-    "prezzoTavolo": "2,50€",
-    "categoria": "Torte e Crostate",
-    "descrizione": "albicocca, frutti di bosco, amarena, cioccolato, cioccolato bianco & nero",
-    "macroArea": "Torte e Crostate"
-  },
-  {
-    "nomeProdotto": "Aperol Spritz",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Classici",
-    "descrizione": "Aperol, prosecco, soda",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Negroni",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Classici",
-    "descrizione": "gin, vermouth rosso, campari",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Negroni Sbagliato",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Classici",
-    "descrizione": "vermouth rosso, Campari, prosecco",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Gin Lemon",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Classici",
-    "descrizione": "gin, limone, soda",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Gin Tonic",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Classici",
-    "descrizione": "gin, acqua tonica, lime",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Whiskey Sour",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Classici",
-    "descrizione": "whiskey, limone, zucchero",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Margarita",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Signature",
-    "descrizione": "tequila, lime, contreau",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Old Fashioned",
-    "prezzoBanco": "8€",
-    "prezzoTavolo": "8€",
-    "categoria": "Drink - Signature",
-    "descrizione": "whiskey, bitters, simple syrup, orange",
-    "macroArea": "Drink"
-  }
-]
+{
+    "macroAree": [
+        {
+            "nome": "Caffetteria",
+            "id": "macroarea-caffetteria"
+        },
+        {
+            "nome": "Pasticceria",
+            "id": "macroarea-pasticceria"
+        },
+        {
+            "nome": "Torte e Crostate",
+            "id": "macroarea-torte-e-crostate"
+        },
+        {
+            "nome": "Drink",
+            "id": "macroarea-drink"
+        }
+    ],
+    "prodotti": [
+        {
+            "nomeProdotto": "Caffè",
+            "prezzoBanco": "1,20€",
+            "prezzoTavolo": "1,20€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "classico espresso",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Caffè macchiato",
+            "prezzoBanco": "1,20€",
+            "prezzoTavolo": "1,20€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "caffè, latte",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Cappuccino",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "caffè, latte, schiuma",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Latte macchiato",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "latte, caffè",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Caffè con Baileys",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "caffè, liquore Baileys",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Caffè con Sambuca",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "caffè, liquore Sambuca",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Caffè con Amaro",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "caffè, amaro a scelta",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Polacca",
+            "prezzoBanco": "1,80€",
+            "prezzoTavolo": "1,80€",
+            "categoria": "La nostra colazione",
+            "descrizione": "crema, amarena",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Polacca al Limone",
+            "prezzoBanco": "1,80€",
+            "prezzoTavolo": "1,80€",
+            "categoria": "La nostra colazione",
+            "descrizione": "crema al limone, senza amarena",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Polacca all’Arancia",
+            "prezzoBanco": "1,80€",
+            "prezzoTavolo": "1,80€",
+            "categoria": "La nostra colazione",
+            "descrizione": "crema all’arancia, senza amarena",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Polacca Vuota",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "La nostra colazione",
+            "descrizione": "senza ripieno",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Cornetto Vuoto",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "La nostra colazione",
+            "descrizione": "possibile farcire con cioccolato, marmellata, pistacchio",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Polacca/Cornetto al Cioccolato",
+            "prezzoBanco": "1,80€",
+            "prezzoTavolo": "1,80€",
+            "categoria": "La nostra colazione",
+            "descrizione": "cioccolato",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Polacca/Cornetto al Pistacchio",
+            "prezzoBanco": "1,80€",
+            "prezzoTavolo": "1,80€",
+            "categoria": "La nostra colazione",
+            "descrizione": "pistacchio",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Polacca/Cornetto a marmellata",
+            "prezzoBanco": "1,80€",
+            "prezzoTavolo": "1,80€",
+            "categoria": "La nostra colazione",
+            "descrizione": "albicocca, frutti di bosco",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Reginetta/Zeppolina",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "La nostra colazione",
+            "descrizione": "",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Code d'aragosta mignon",
+            "prezzoBanco": "1,00€",
+            "prezzoTavolo": "1,00€",
+            "categoria": "La nostra colazione",
+            "descrizione": "cioccolato, cioccolato bianco, limone, nocciola",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Barchette mignon",
+            "prezzoBanco": "1,00€",
+            "prezzoTavolo": "1,00€",
+            "categoria": "La nostra colazione",
+            "descrizione": "cioccolato",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Sigarette mignon",
+            "prezzoBanco": "0,80€",
+            "prezzoTavolo": "0,80€",
+            "categoria": "La nostra colazione",
+            "descrizione": "cioccolato, cioccolato bianco",
+            "macroArea": "Pasticceria"
+        },
+        {
+            "nomeProdotto": "Torta polacca",
+            "prezzoBanco": "23€/kg",
+            "prezzoTavolo": "",
+            "categoria": "Torte e Crostate",
+            "descrizione": "1 kg | 1,5 kg | 2 kg",
+            "macroArea": "Torte e Crostate"
+        },
+        {
+            "nomeProdotto": "Crostate",
+            "prezzoBanco": "20€/kg",
+            "prezzoTavolo": "",
+            "categoria": "Torte e Crostate",
+            "descrizione": "albicocca, frutti di bosco, amarena, cioccolato, cioccolato bianco & nero",
+            "macroArea": "Torte e Crostate"
+        },
+        {
+            "nomeProdotto": "Fetta di torta polacca",
+            "prezzoBanco": "3€",
+            "prezzoTavolo": "3€",
+            "categoria": "Torte e Crostate",
+            "descrizione": "crema, amarena",
+            "macroArea": "Torte e Crostate"
+        },
+        {
+            "nomeProdotto": "Trancio di crostata",
+            "prezzoBanco": "2,50€",
+            "prezzoTavolo": "2,50€",
+            "categoria": "Torte e Crostate",
+            "descrizione": "albicocca, frutti di bosco, amarena, cioccolato, cioccolato bianco & nero",
+            "macroArea": "Torte e Crostate"
+        },
+        {
+            "nomeProdotto": "Aperol Spritz",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Classici",
+            "descrizione": "Aperol, prosecco, soda",
+            "macroArea": "Drink"
+        },
+        {
+            "nomeProdotto": "Negroni",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Classici",
+            "descrizione": "gin, vermouth rosso, campari",
+            "macroArea": "Drink"
+        },
+        {
+            "nomeProdotto": "Negroni Sbagliato",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Classici",
+            "descrizione": "vermouth rosso, Campari, prosecco",
+            "macroArea": "Drink"
+        },
+        {
+            "nomeProdotto": "Gin Lemon",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Classici",
+            "descrizione": "gin, limone, soda",
+            "macroArea": "Drink"
+        },
+        {
+            "nomeProdotto": "Gin Tonic",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Classici",
+            "descrizione": "gin, acqua tonica, lime",
+            "macroArea": "Drink"
+        },
+        {
+            "nomeProdotto": "Whiskey Sour",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Classici",
+            "descrizione": "whiskey, limone, zucchero",
+            "macroArea": "Drink"
+        },
+        {
+            "nomeProdotto": "Margarita",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Signature",
+            "descrizione": "tequila, lime, contreau",
+            "macroArea": "Drink"
+        },
+        {
+            "nomeProdotto": "Old Fashioned",
+            "prezzoBanco": "8€",
+            "prezzoTavolo": "8€",
+            "categoria": "Drink - Signature",
+            "descrizione": "whiskey, bitters, simple syrup, orange",
+            "macroArea": "Drink"
+        }
+    ]
+}
