@@ -19,145 +19,25 @@ window.addEventListener('DOMContentLoaded', () => {
         });
 });
 
-// function generaMenu(prodotti) {
-//     const ctaInner = document.querySelector('.cta-inner');
-//     if (!ctaInner) return;
-
-//     // Raggruppo i prodotti per macroArea
-//     const prodottiPerArea = {};
-//     prodotti.forEach(p => {
-//         if (!prodottiPerArea[p.macroArea]) {
-//             prodottiPerArea[p.macroArea] = [];
-//         }
-//         prodottiPerArea[p.macroArea].push(p);
-//     });
-
-//     // Pulisco il contenuto originale
-//     ctaInner.innerHTML = '';
-
-//     // Creo dinamicamente le sezioni
-//     for (const [macroArea, prodottiArea] of Object.entries(prodottiPerArea)) {
-//         const section = document.createElement('div');
-
-//         // Titolo sezione
-//         const h2 = document.createElement('h2');
-//         h2.className = 'section-heading mb-5';
-//         const span = document.createElement('span');
-//         span.className = 'section-heading-lower custom_section_heading';
-//         span.textContent = macroArea;
-//         h2.appendChild(span);
-//         section.appendChild(h2);
-
-//         // Contenitore categoria
-//         const customTitle = document.createElement('div');
-//         customTitle.className = 'custom_title';
-//         customTitle.textContent = prodottiArea[0].categoria;
-//         section.appendChild(customTitle);
-
-//         const customContainer = document.createElement('div');
-//         customContainer.className = 'custom_container';
-
-//         const w100 = document.createElement('div');
-//         w100.className = 'w-100';
-
-//         // Intestazione prezzi
-//         const headerUl = document.createElement('ul');
-//         headerUl.className = 'list-unstyled list-hours mb-2 text-left mx-auto fw-bold d-flex justify-content-between';
-//         const headerLi = document.createElement('li');
-//         headerLi.className = 'd-flex justify-content-between w-100';
-//         const headerNome = document.createElement('span');
-//         headerNome.textContent = ''; // Nome prodotto vuoto
-//         const headerPrezzi = document.createElement('span');
-//         headerPrezzi.className = 'd-flex gap-3';
-//         const headerBanco = document.createElement('span');
-//         headerBanco.textContent = 'Banco';
-//         const headerTavolo = document.createElement('span');
-//         headerTavolo.textContent = 'Tavolo';
-//         headerPrezzi.appendChild(headerBanco);
-//         headerPrezzi.appendChild(headerTavolo);
-//         headerLi.appendChild(headerNome);
-//         headerLi.appendChild(headerPrezzi);
-//         headerUl.appendChild(headerLi);
-//         w100.appendChild(headerUl);
-
-//         // Lista prodotti
-//         const ul = document.createElement('ul');
-//         ul.className = 'list-unstyled list-hours mb-5 text-left mx-auto';
-
-//         prodottiArea.forEach(prodotto => {
-//             const li = document.createElement('li');
-//             li.className = 'list-unstyled-item list-hours-item d-flex justify-content-between align-items-center custom_list_item';
-
-//             // Div nome e descrizione
-//             const divInfo = document.createElement('div');
-//             divInfo.className = 'd-flex flex-column text-start';
-
-//             const nome = document.createElement('span');
-//             nome.textContent = prodotto.nomeProdotto;
-
-//             const descrizione = document.createElement('span');
-//             descrizione.className = 'text-muted small';
-//             // if (!prodotto.descrizione || prodotto.descrizione.trim() === "" || prodotto.descrizione === "&nbsp;") {
-//             //     descrizione.innerHTML = "&nbsp;";
-//             // } else {
-//             //     descrizione.textContent = '(' + prodotto.descrizione + ')';
-//             // }
-//             if (!prodotto.descrizione || prodotto.descrizione.trim() === "" || prodotto.descrizione === "&nbsp;"){
-//                 descrizione.textContent = "";
-//             } else {
-//                descrizione.textContent = '(' + prodotto.descrizione + ')'; 
-//             }
-            
-
-//             divInfo.appendChild(nome);
-//             divInfo.appendChild(descrizione);
-
-//             // Div prezzi affiancati
-//             const divPrezzi = document.createElement('div');
-//             divPrezzi.className = 'd-flex gap-3 text-end';
-
-//             const prezzoBanco = document.createElement('span');
-//             prezzoBanco.textContent = prodotto.prezzoBanco || '-';
-//             prezzoBanco.className = 'fw-bold';
-
-//             const prezzoTavolo = document.createElement('span');
-//             prezzoTavolo.textContent = prodotto.prezzoTavolo || '-';
-//             prezzoTavolo.className = 'fw-bold text-muted';
-
-//             divPrezzi.appendChild(prezzoBanco);
-//             divPrezzi.appendChild(prezzoTavolo);
-
-//             // Appendo tutto al li
-//             li.appendChild(divInfo);
-//             li.appendChild(divPrezzi);
-//             ul.appendChild(li);
-//         });
-
-//         w100.appendChild(ul);
-//         customContainer.appendChild(w100);
-//         section.appendChild(customContainer);
-
-//         ctaInner.appendChild(section);
-//     }
-// }
-
 function generaMenu(data) {
     const ctaInner = document.querySelector('.cta-inner');
     if (!ctaInner) return;
 
-    // --- CREO LA NAVBAR DINAMICA ---
+    // Pulisco il contenuto precedente
+    ctaInner.innerHTML = '';
+
+    // --- CREO LA NAVBAR RESPONSIVE SEMPLICE ---
     const navbar = document.createElement('nav');
-    navbar.className = 'custom-navbar mb-4 text-center';
+    navbar.className = 'custom-navbar mb-4 d-flex justify-content-center flex-wrap'; // flex-wrap per mobile
 
     data.macroAree.forEach(area => {
         const a = document.createElement('a');
         a.href = '#' + area.id;
         a.textContent = area.nome;
-        a.className = 'mx-3 text-decoration-none fw-bold';
+        a.className = 'mx-3 my-1 text-decoration-none fw-bold'; // margine verticale su mobile
         navbar.appendChild(a);
     });
 
-    ctaInner.innerHTML = ''; // pulisco contenuto
     ctaInner.appendChild(navbar);
 
     // --- RAGGRUPPO I PRODOTTI PER MACROAREA ---
@@ -170,7 +50,6 @@ function generaMenu(data) {
     // --- CREO SEZIONI PRODOTTI ---
     for (const [macroArea, prodottiArea] of Object.entries(prodottiPerArea)) {
         const section = document.createElement('div');
-        // assegno id per collegamento navbar
         section.id = 'macroarea-' + macroArea.toLowerCase().replace(/\s+/g, '-');
 
         // Titolo sezione
@@ -195,13 +74,13 @@ function generaMenu(data) {
 
         // Intestazione prezzi
         const headerUl = document.createElement('ul');
-        headerUl.className = 'list-unstyled list-hours mb-2 text-left mx-auto fw-bold d-flex justify-content-between';
+        headerUl.className = 'list-unstyled list-hours mb-2 text-left mx-auto fw-bold d-flex justify-content-between flex-wrap';
         const headerLi = document.createElement('li');
-        headerLi.className = 'd-flex justify-content-between w-100';
+        headerLi.className = 'd-flex justify-content-between w-100 flex-wrap';
         const headerNome = document.createElement('span');
         headerNome.textContent = '';
         const headerPrezzi = document.createElement('span');
-        headerPrezzi.className = 'd-flex gap-3';
+        headerPrezzi.className = 'd-flex gap-3 flex-wrap';
         const headerBanco = document.createElement('span');
         headerBanco.textContent = 'Banco';
         const headerTavolo = document.createElement('span');
@@ -214,14 +93,12 @@ function generaMenu(data) {
         w100.appendChild(headerUl);
 
         // Lista prodotti
-        const ul = document.createElement('ul');
-        ul.className = 'list-unstyled list-hours mb-5 text-left mx-auto';
-
+        const ulProdotti = document.createElement('ul');
+        ulProdotti.className = 'list-unstyled list-hours mb-5 text-left mx-auto';
         prodottiArea.forEach(prodotto => {
             const li = document.createElement('li');
-            li.className = 'list-unstyled-item list-hours-item d-flex justify-content-between align-items-center custom_list_item';
+            li.className = 'list-unstyled-item list-hours-item d-flex justify-content-between align-items-center flex-wrap custom_list_item';
 
-            // Div nome e descrizione
             const divInfo = document.createElement('div');
             divInfo.className = 'd-flex flex-column text-start';
             const nome = document.createElement('span');
@@ -236,9 +113,8 @@ function generaMenu(data) {
             divInfo.appendChild(nome);
             divInfo.appendChild(descrizione);
 
-            // Div prezzi affiancati
             const divPrezzi = document.createElement('div');
-            divPrezzi.className = 'd-flex gap-3 text-end';
+            divPrezzi.className = 'd-flex gap-3 text-end flex-wrap';
             const prezzoBanco = document.createElement('span');
             prezzoBanco.textContent = prodotto.prezzoBanco || '-';
             prezzoBanco.className = 'fw-bold';
@@ -250,22 +126,14 @@ function generaMenu(data) {
 
             li.appendChild(divInfo);
             li.appendChild(divPrezzi);
-            ul.appendChild(li);
+            ulProdotti.appendChild(li);
         });
 
-        w100.appendChild(ul);
+        w100.appendChild(ulProdotti);
         customContainer.appendChild(w100);
         section.appendChild(customContainer);
         ctaInner.appendChild(section);
     }
 }
-
-
-
-
-
-
-
-
 
 
