@@ -68,7 +68,7 @@ function generaMenu(prodotti) {
         // Contenitore prodotti
         const customTitle = document.createElement('div');
         customTitle.className = 'custom_title';
-        customTitle.textContent = macroArea;
+        customTitle.textContent = prodottiArea[0].categoria;
         section.appendChild(customTitle);
 
         const customContainer = document.createElement('div');
