@@ -26,15 +26,15 @@ function generaMenu(data) {
     // Pulisco il contenuto precedente
     ctaInner.innerHTML = '';
 
-    // --- CREO LA NAVBAR RESPONSIVE SEMPLICE ---
+    // --- CREO LA NAVBAR SEMPLICE E RESPONSIVE ---
     const navbar = document.createElement('nav');
-    navbar.className = 'custom-navbar mb-4 d-flex justify-content-center flex-wrap'; // flex-wrap per mobile
+    navbar.className = 'custom-navbar mb-4 d-flex justify-content-center flex-wrap';
 
     data.macroAree.forEach(area => {
         const a = document.createElement('a');
         a.href = '#' + area.id;
         a.textContent = area.nome;
-        a.className = 'mx-3 my-1 text-decoration-none fw-bold'; // margine verticale su mobile
+        a.className = 'mx-3 my-1 text-decoration-none fw-bold';
         navbar.appendChild(a);
     });
 
@@ -74,13 +74,13 @@ function generaMenu(data) {
 
         // Intestazione prezzi
         const headerUl = document.createElement('ul');
-        headerUl.className = 'list-unstyled list-hours mb-2 text-left mx-auto fw-bold d-flex justify-content-between flex-wrap';
+        headerUl.className = 'list-unstyled list-hours mb-2 text-left mx-auto fw-bold d-flex justify-content-between';
         const headerLi = document.createElement('li');
-        headerLi.className = 'd-flex justify-content-between w-100 flex-wrap';
+        headerLi.className = 'd-flex justify-content-between w-100';
         const headerNome = document.createElement('span');
         headerNome.textContent = '';
         const headerPrezzi = document.createElement('span');
-        headerPrezzi.className = 'd-flex gap-3 flex-wrap';
+        headerPrezzi.className = 'd-flex gap-3';
         const headerBanco = document.createElement('span');
         headerBanco.textContent = 'Banco';
         const headerTavolo = document.createElement('span');
@@ -97,10 +97,12 @@ function generaMenu(data) {
         ulProdotti.className = 'list-unstyled list-hours mb-5 text-left mx-auto';
         prodottiArea.forEach(prodotto => {
             const li = document.createElement('li');
-            li.className = 'list-unstyled-item list-hours-item d-flex justify-content-between align-items-center flex-wrap custom_list_item';
+            li.className = 'list-unstyled-item list-hours-item d-flex justify-content-between align-items-center custom_list_item flex-wrap';
 
+            // Nome e descrizione
             const divInfo = document.createElement('div');
             divInfo.className = 'd-flex flex-column text-start';
+            divInfo.style.flex = '1'; // <-- prende tutto lo spazio disponibile
             const nome = document.createElement('span');
             nome.textContent = prodotto.nomeProdotto;
             const descrizione = document.createElement('span');
@@ -113,8 +115,9 @@ function generaMenu(data) {
             divInfo.appendChild(nome);
             divInfo.appendChild(descrizione);
 
+            // Prezzi Banco/Tavolo
             const divPrezzi = document.createElement('div');
-            divPrezzi.className = 'd-flex gap-3 text-end flex-wrap';
+            divPrezzi.className = 'd-flex gap-3 text-end flex-shrink-0'; // <-- non si riduce
             const prezzoBanco = document.createElement('span');
             prezzoBanco.textContent = prodotto.prezzoBanco || '-';
             prezzoBanco.className = 'fw-bold';
@@ -135,5 +138,6 @@ function generaMenu(data) {
         ctaInner.appendChild(section);
     }
 }
+
 
 
