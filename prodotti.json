@@ -15,14 +15,14 @@
   },
   {
     "nomeProdotto": "Cappuccino",
-    "prezzo": "1,80€",
+    "prezzo": "1,50€",
     "categoria": "Caffetteria & CO.",
     "descrizione": "caffè, latte, schiuma",
     "macroArea": "Caffetteria"
   },
   {
     "nomeProdotto": "Latte macchiato",
-    "prezzo": "1,80€",
+    "prezzo": "1,50€",
     "categoria": "Caffetteria & CO.",
     "descrizione": "latte, caffè",
     "macroArea": "Caffetteria"
@@ -203,31 +203,10 @@
     "macroArea": "Drink"
   },
   {
-    "nomeProdotto": "Moscow Mule",
-    "prezzo": "8€",
-    "categoria": "Drink - Classici",
-    "descrizione": "vodka, ginger beer, lime",
-    "macroArea": "Drink"
-  },
-  {
     "nomeProdotto": "Margarita",
     "prezzo": "8€",
     "categoria": "Drink - Signature",
     "descrizione": "tequila, lime, contreau",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "French Seventy Five",
-    "prezzo": "8€",
-    "categoria": "Drink - Signature",
-    "descrizione": "gin, champagne, lemon juice, liqueur",
-    "macroArea": "Drink"
-  },
-  {
-    "nomeProdotto": "Cranberry Mule",
-    "prezzo": "8€",
-    "categoria": "Drink - Signature",
-    "descrizione": "ginger beer, vodka, cranberry juice",
     "macroArea": "Drink"
   },
   {
