@@ -35,11 +35,27 @@
             "macroArea": "Caffetteria"
         },
         {
+            "nomeProdotto": "Caffè decaffeinato",
+            "prezzoBanco": "1,50€",
+            "prezzoTavolo": "1,50€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "decaffeinato",
+            "macroArea": "Caffetteria"
+        },
+        {
             "nomeProdotto": "Cappuccino",
             "prezzoBanco": "1,50€",
             "prezzoTavolo": "1,50€",
             "categoria": "Caffetteria & CO.",
             "descrizione": "caffè, latte, schiuma",
+            "macroArea": "Caffetteria"
+        },
+        {
+            "nomeProdotto": "Cappuccino Decaffeinato",
+            "prezzoBanco": "2,00€",
+            "prezzoTavolo": "2,00€",
+            "categoria": "Caffetteria & CO.",
+            "descrizione": "decaffeinato, latte, schiuma",
             "macroArea": "Caffetteria"
         },
         {
